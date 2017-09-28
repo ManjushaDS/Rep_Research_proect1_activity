@@ -22,6 +22,8 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 
 #**Review criteria**
 
+
+
 ##*Repo*
 
 1.Valid GitHub URL
@@ -31,6 +33,8 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 3.Valid SHA-1
 
 4.SHA-1 corresponds to a specific commit
+
+
 
 ##*Commit containing full submission*
 
@@ -52,6 +56,8 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 
 9.All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
 
+
+
 ##*Assignment* 
 
 This assignment will be described in multiple parts. You will need to write a report that answers the questions detailed below. Ultimately, you will need to complete the entire assignment in a single R markdown document that can be processed by knitr and be transformed into an HTML file.
@@ -64,6 +70,8 @@ Fork/clone the GitHub repository created for this assignment. You will submit th
 
 NOTE: The GitHub repository also contains the dataset for the assignment so you do not have to download the data separately.
 
+
+
 ##Loading and preprocessing the data
 
 Show any code that is needed to
@@ -71,6 +79,8 @@ Show any code that is needed to
 1.Load the data (i.e. read.csv())
 
 2.Process/transform the data (if necessary) into a format suitable for your analysis
+
+
 
 ###What is mean total number of steps taken per day?
 
@@ -82,11 +92,14 @@ For this part of the assignment, you can ignore the missing values in the datase
 
 3.Calculate and report the mean and median of the total number of steps taken per day
 
+
+
 ###What is the average daily activity pattern?
 
 1.Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
 
 2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
+
 
 
 ###Imputing missing values
@@ -101,6 +114,8 @@ Note that there are a number of days/intervals where there are missing values (c
 
 4.Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
+
+
 ###Are there differences in activity patterns between weekdays and weekends?
 
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
@@ -108,6 +123,8 @@ For this part the weekdays() function may be of some help here. Use the dataset 
 1.Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
 
 2.Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.
+
+
 
 ##*Submitting the Assignment* 
 
@@ -123,6 +140,7 @@ To submit the assignment:
 
 5.Submit the URL to your GitHub repository for this assignment on the course web site.
 
+
 In addition to submitting the URL for your GitHub repository, you will need to submit the 40 character SHA-1 hash (as string of numbers from 0-9 and letters from a-f) that identifies the repository commit that contains the version of the files you want to submit. You can do this in GitHub by doing the following
 
 1.Going to your GitHub repository web page for this assignment
@@ -134,8 +152,10 @@ to use the most recent commit, then go down and find the commit you want and cop
 
 A valid submission will look something like (this is just an example!)
 
-'''
+
 1  https://github.com/rdpeng/RepData_PeerAssessment17c376cc54
-2  
+
+2 
+
 3  7f11537f8740af8e07d6facc3d9645
-'''
+
